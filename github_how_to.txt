@@ -1,0 +1,19 @@
+1) open a new repository in github - remember to NOT add a readme or anything else. You can add those later
+
+2) copy the https link that is in front of you when you create it
+
+3)go to terminal and navigate to the source (folder) where the files you want to push are
+
+4) git init 
+this will initialize the git repository
+
+5) git add breast_cancer.ipynb
+
+git status
+#to check
+
+6) git commit -m “first commit”
+
+7) git remote add origin https://github.com/bora-pajo/Breastcancer.git
+
+8) git push -u origin master
